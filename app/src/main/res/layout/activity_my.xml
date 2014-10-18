@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.emmasuzuki.segmentedcontrolview.SegmentedControlView
+        xmlns:segment="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/segmented_control1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_blue_light"
+        segment:borderColor="@android:color/holo_blue_dark"
+        segment:indicatorColor="@android:color/holo_red_light"/>
+
+    <com.emmasuzuki.segmentedcontrolview.SegmentedControlView
+        xmlns:segment="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/segmented_control2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/holo_orange_light"
+        segment:borderColor="@android:color/holo_orange_dark"
+        segment:highlightColor="@android:color/holo_red_light"
+        segment:indicatorColor="@android:color/holo_red_light"/>
+
+    <com.emmasuzuki.segmentedcontrolview.SegmentedControlView
+        xmlns:segment="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/segmented_control3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/holo_green_light"
+        segment:borderColor="@android:color/holo_green_dark"
+        segment:indicatorColor="@android:color/holo_blue_light"/>
+
+</LinearLayout>
+
