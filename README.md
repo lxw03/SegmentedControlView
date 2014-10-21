@@ -37,10 +37,15 @@ mSegmentedControlView.setOnSegmentSelectListener(new OnSegmentSelectListener() {
 
 ##API
 `setSelectedIndex(int selectedIndex)`: Set custom selection on load or at any time
+
 `setSelectedTextColor(int selectedTextColor)`: Set highlighted text color
+
 `setBorderColor(int borderColor)`: Set vertical border color
+
 `setIndicatorColor(int indicatorColor)`: Set bottom indicator color
+
 `setBorderWidth(int borderWidth)`: Set vertical border width
+
 `setOnSegmentSelectListener(OnSegmentSelectListener listener)`: Set select listener
 
 ##Questions?
